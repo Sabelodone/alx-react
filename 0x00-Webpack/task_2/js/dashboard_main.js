@@ -1,4 +1,5 @@
 // interesting jquery import thanks to babel
+import './css/main.css';
 import $ from 'jquery';
 // import lodash
 import _ from 'lodash';
