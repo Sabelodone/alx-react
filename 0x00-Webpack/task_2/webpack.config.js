@@ -30,5 +30,8 @@ module.exports = {
 				],
 			}
 		]
-	}
+	},
+	performance: {
+		maxAssetSize: 500 * 1024, // Set the maximum allowed asset size to 500 KiB
+	},
 };
