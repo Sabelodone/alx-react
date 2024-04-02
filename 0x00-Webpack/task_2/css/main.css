@@ -1,13 +1,17 @@
-/* main.css */
-#count {
-	display: inline;
-	font-style: bold;
-}
+  /* main.css */
 
-  #logo {
+/* Set the width and height of the logo */
+#logo {
     width: 200px;
     height: 200px;
-    background-image: url('../assets/holberton-logo.jpg');
-    background-size: cover;
+    /* Set the background image */
+    background-image:  url('assets/holberton-logo.jpg');
+  }
+  
+  /* Position the counter text to the right of the button */
+  #count {
+    font-weight: bold; /* Make the text bold */
+    display: inline-block; /* Ensure that the text appears next to the button */
+    margin-left: 10px; /* Add some space between the button and the text */
   }
   
