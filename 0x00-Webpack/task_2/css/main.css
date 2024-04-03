@@ -1,6 +1,15 @@
+/* main.css */
+
+/* Style the counter text to be displayed on the right of the button and in bold */
+#count {
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* Add an element at the top of the document with the id #logo */
 #logo {
-    width: 200px;
-    height: 200px;
-    background-image: url('../assets/holberton-logo.jpg');
-  }
-  
+  width: 200px;
+  height: 200px;
+  background-image: url('../assets/holberton-logo.jpg');
+  background-size: cover; /* Ensure the background image covers the entire element */
+}
