@@ -7,7 +7,7 @@
     "build": "webpack"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sabelo Sibaya",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.10.0",
