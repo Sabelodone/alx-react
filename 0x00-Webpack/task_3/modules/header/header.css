@@ -1,9 +1,6 @@
-div {
-    background-color: #eee;
-    padding: 10px;
-  }
-  
-  img {
-    width: 100px;
-    height: auto;
-  }
+#logo {
+	width: 200px;
+	height: 200px;
+	background: url('../assets/holberton-logo.jpg');
+	background-size: 200px 200px;
+}
