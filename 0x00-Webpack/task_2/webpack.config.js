@@ -24,7 +24,7 @@ module.exports = {
             loader: 'image-webpack-loader',
             options: {
               bypassOnDebug: true,
-              disable: false // Enable image processing
+              disable: false
             }
           }
         ]
@@ -32,6 +32,6 @@ module.exports = {
     ]
   },
   performance: {
-    maxAssetSize: 500 * 1024 // Set the maximum allowed asset size to 500 KiB
+    maxAssetSize: 500 * 1024 
   }
 };
